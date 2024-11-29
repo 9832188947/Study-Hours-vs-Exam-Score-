@@ -7,6 +7,7 @@ This project predicts a student's final exam score based on the number of hours 
 - [Overview](#overview)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -34,6 +35,24 @@ By training a regression model on this data, the program can predict an exam sco
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
+2. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+3. Add the following dependencies to your requirements.txt:
+   ```bash
+   numpy
+   pandas
+   scikit-learn
+---
+### Usage
+1. Run the Python script:
+   ```bash
+   python predict_exam_score.py
+
+2. Input the number of hours you study (0 to 10) when prompted.
+
+3. View the predicted exam score as output.
+
 ---
 ### Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
